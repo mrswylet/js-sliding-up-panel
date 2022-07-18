@@ -1,0 +1,33 @@
+.sliding-up-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.sliding-up-panel__head {
+    height: 20px;
+    width: 100%;
+    background: #d2d2ff;
+    position: relative;
+}
+
+.sliding-up-panel__head:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sliding-up-panel__body {
+
+}
